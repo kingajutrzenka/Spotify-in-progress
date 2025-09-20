@@ -17,4 +17,14 @@ Dimensionality reduction:
 CA (2D) and UMAP (2D) for visualization
 Clustering:
 - K-Means algotytm separation data for 6 similar size clusters. This speparation in my opision is nice, but unfortunatly K-Means alghorytm don't make outliers who in this case study are nessesary.
-  
+![k-Means](images/KMeans.png)
+- DBSCAN algorytm sepraration data for 19 diffrent size clusters. This separation is worst than in K-Means algorytm, but this algorytm find 2607 outliers, what in this case study is important.
+![DBSCAN](images/DBSCAN.png)
+-Comparision and conclusions:
+### DBSCAN vs K-Means
+
+| Algorithm | Clusters | Outliers | Main insight |
+|-----------|----------|----------|--------------|
+| DBSCAN    | 19       | 2607     | One huge mainstream cluster + smaller niches |
+| K-Means   | 6        | –        | Balanced partitioning into large groups |
+
