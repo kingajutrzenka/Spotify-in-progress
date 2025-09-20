@@ -1,6 +1,7 @@
 # **🎶 Spotify Songs Clustering with K-Means & DBSCAN**
 ## **📌 Project Overview**
 This project separation Spotify tracks with unsupervision algorytms : DBSCAN and K-Means.
+!(images/PCA_projection_of_Spotify_data.png)
 ## **📂 Dataset**
 Source: Kaggle
 Link: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data
