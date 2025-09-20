@@ -28,3 +28,7 @@ Clustering:
 | DBSCAN    | 19       | 2607     | One huge mainstream cluster + smaller niches |
 | K-Means   | 6        | –        | Balanced partitioning into large groups |
 
+Probably the best option will be mix DBSCAN (search outliers) and K-Means (data separation).
+## **🚀 Future Work**
+- Try Gaussian Mixture Models (GMM) for probabilistic clustering.
+- Build a simple recommendation demo in Streamlit.
